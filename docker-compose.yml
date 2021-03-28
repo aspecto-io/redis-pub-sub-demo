@@ -1,0 +1,17 @@
+services:
+  redis:
+   image: redis
+   ports:
+    - "6379:6379"
+   expose:
+    - 6379
+  jaeger:
+    image: jaegertracing/all-in-one
+    ports:
+      - "9411:9411"
+      - "16686:16686"
+    environment:
+      - COLLECTOR_ZIPKIN_HOST_PORT=9411
+    expose:
+      - 9411
+      - 16686
