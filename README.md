@@ -2,7 +2,7 @@
 
 This is a demo code that was used in RedisConf to show case "how to get end to end visibility with redis pub/sub"
 
-For more details check out the video: https://vimeo.com/545382710
+For more details check out the video: https://youtu.be/0czGM8BmR2E
 
 
 ### How to run it?
